@@ -1,0 +1,18 @@
+//第一段必要的
+@import "../../node_modules/bootstrap/scss/functions";
+
+
+
+@import './utlis/_font';
+@import './utlis/_variables.scss';
+
+
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+
+@import './pages/index.scss';
+
+
+//最後一段也必要
+@import "../../node_modules/bootstrap";
